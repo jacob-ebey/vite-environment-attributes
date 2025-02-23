@@ -1,6 +1,6 @@
 import * as http from "http";
 
-import { listener } from "./dist/server.js";
+import { listener } from "./dist/http.js";
 
 const server = http.createServer(listener);
 
