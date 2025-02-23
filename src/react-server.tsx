@@ -1,5 +1,3 @@
-"use environment react_server";
-
 import * as stream from "node:stream";
 
 // @ts-expect-error - no types
