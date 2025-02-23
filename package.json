@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#env-specific": {
+      "types": "./lib/env-specific.d.ts",
+      "react-server": "./lib/env-specific.react-server.js",
+      "default": "./lib/env-specific.default.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.26.9",
+    "@babel/parser": "^7.26.9",
+    "@babel/plugin-transform-typescript": "^7.26.8",
+    "@babel/preset-typescript": "^7.26.0",
+    "@babel/traverse": "^7.26.9",
+    "@babel/types": "^7.26.9",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "sonda": "^0.7.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1"
+  },
+  "dependencies": {
+    "@jacob-ebey/react-server-dom-vite": "19.0.0-experimental.14",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
